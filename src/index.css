@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-serif-wiki {
+    font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  }
+
+  .font-mono-wiki {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbar and print styles for Wikipedia encyclopedic feel */
+@media print {
+  header, nav, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}

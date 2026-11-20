@@ -1,0 +1,6 @@
+{
+  "name": "WikiBencana - Ensiklopedia Mitigasi Bencana Alam",
+  "description": "Ensiklopedia komprehensif mitigasi bencana alam dengan tanda-tanda peringatan, ciri-ciri, dampak, infobox ensiklopedis, dan panduan kesiapsiagaan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
